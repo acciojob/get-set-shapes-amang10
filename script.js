@@ -26,3 +26,7 @@ class Square extends Rectangle {
     return 4 * this.width;
   }
 }
+
+// Do not change the code below this line
+window.Rectangle = Rectangle;
+window.Square = Square;
